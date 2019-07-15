@@ -1,4 +1,4 @@
-/*
+
 const random_jokes = [
   {
     setup: 'What is the object oriented way to get wealthy ?',
@@ -25,4 +25,3 @@ export default {
     }, 3000);
   },
 };
-*/

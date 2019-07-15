@@ -32,13 +32,14 @@ export default {
         { path: 'puzzlecards', component: './puzzlecards' },
         { path: 'list', component: './list' },
         { path: 'typescript', component: './tsdemo' },
-        { path: 'locale', component: './locale' }
+        { path: 'locale', component: './locale' },
+        { path: 'tree', component: './tree' }
       ]
     }
   ],
   proxy: {
-    '/dev': {
-      target: 'https://08ad1pao69.execute-api.us-east-1.amazonaws.com',
+    '/ele': {
+      target: 'http://localhost:8083',
       changeOrigin: true,
     },
   },

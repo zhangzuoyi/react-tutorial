@@ -31,6 +31,21 @@ const menuData = [
     name: 'typescript',
     icon: 'dashboard',
     path: 'typescript',
+  },
+  {
+    name: 'list',
+    icon: 'dashboard',
+    path: 'list',
+  },
+  {
+    name: 'puzzlecards',
+    icon: 'dashboard',
+    path: 'puzzlecards',
+  },
+  {
+    name: 'tree',
+    icon: 'dashboard',
+    path: 'tree',
   }
 ];
 

@@ -11,6 +11,7 @@ export function deleteOne(id) {
 }
 
 export function addOne(data) {
+  console.log(JSON.stringify(data))
   return request('/api/cards/add', {
     headers: {
       'content-type': 'application/json',
